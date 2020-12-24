@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/login/forget",
+    "pages/index/details",
+    "pages/set/index",
+    "pages/set/updatePassword",
+    "pages/index/enginerring"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#17aeff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#2e98c5",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/inactive1.png",
+        "selectedIconPath": "static/image/active1.png",
+        "text": "用户设施"
+      },
+      {
+        "pagePath": "pages/set/index",
+        "iconPath": "static/image/inactive3.png",
+        "selectedIconPath": "static/image/active3.png",
+        "text": "系统设置"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

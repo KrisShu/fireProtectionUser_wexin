@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "引导页",
+  "usingComponents": {
+    "van-button": "/wxcomponents/vant/button/index"
+  }
+}
